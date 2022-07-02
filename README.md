@@ -27,6 +27,13 @@
     - 차량이 있는 공간에 LED를 점등하고 LCD 화면에 빨간색으로 GUI로 표시하며 차량이 없는 공간에는 LED를 소등하고 화면에 파란색으로 표시합니다.
     - 라즈베리 파이가 DB에 주차공간 상태를 갱신합니다.
 
+#### [Web]()
+
+#### [Android App](https://github.com/pkd98/Integrated-Parking-Lot-Management-System/tree/master/Integrated-Parking-Lot-Management-System/Android-WebViewApplication)
+    - WebView 위젯을 이용하여 반응형 웹으로 구현된 웹사이트를 바로 보여주는 기능을 합니다.
+    
+
+
 ## 참고 문헌
 - [Install OpenCV 4.5 on Raspberry Pi 4](https://qengineering.eu/install-opencv-4.5-on-raspberry-pi-4.html)
 - [GitHub - Mactto/License_Plate_Recognition](https://github.com/Mactto/License_Plate_Recognition)
