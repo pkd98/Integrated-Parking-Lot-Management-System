@@ -1,0 +1,26 @@
+body{
+    height : 100vh;
+    background-image: url("img/cool-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#nav{
+    background-color: #F3EADA;
+
+}
+#mid{
+    background-color: #e8f8f5;
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
