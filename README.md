@@ -27,13 +27,24 @@
     - 차량이 있는 공간에 LED를 점등하고 LCD 화면에 빨간색으로 GUI로 표시하며 차량이 없는 공간에는 LED를 소등하고 화면에 파란색으로 표시합니다.
     - 라즈베리 파이가 DB에 주차공간 상태를 갱신합니다.
 
-#### [Web]()
+## Arduino
+- 차단기의 서보모터, 차량 진입 감지의 초음파센서, 주차 상태의 적외선 센서를 제어하고 각 값들을 시리얼통신으로 연결된 라즈베리파이에게 값을 넘겨주는 역할을 합니다.
+- [입차모듈](https://github.com/pkd98/Integrated-Parking-Lot-Management-System/blob/master/Integrated-Parking-Lot-Management-System/arduino/entrance/entrance.ino), [출차모듈](https://github.com/pkd98/Integrated-Parking-Lot-Management-System/blob/master/Integrated-Parking-Lot-Management-System/arduino/exit/exit.ino)
+## [Web](https://github.com/pkd98/Integrated-Parking-Lot-Management-System/blob/master/Integrated-Parking-Lot-Management-System/webPage/index.html)
+#### 부트스트랩 프레임워크를 이용하여 반응형 구현 및 PHP를 이용한 각 기능 구현
+#### 기능 
+1. [주차 현황 보기](https://github.com/pkd98/Integrated-Parking-Lot-Management-System/blob/master/Integrated-Parking-Lot-Management-System/webPage/parking_status.php)
+    - 자리체크모듈을 기반하여 파악되어 저장된 DB에 주차 자리 상태에 대한 정보를 불러와 테이블로 시각화하여 보여줍니다.
+2. [내 차량 보기](https://github.com/pkd98/Integrated-Parking-Lot-Management-System/blob/master/Integrated-Parking-Lot-Management-System/webPage/client_info_main.html)
+    - 입력 폼에 현재 주차된 차량의 번호판을 입력하면 해당 차량에 대한 정보를 볼 수 있습니다.
+    - [입력 값에 대한 판별](https://github.com/pkd98/Integrated-Parking-Lot-Management-System/blob/master/Integrated-Parking-Lot-Management-System/webPage/clientpage.php) 후 해당 번호판에 대한 DB의 주차 정보를 불러와 내차량의 주차 위지, 주차 시간, 현재시간, 부가된 요금 정보를 보여줍니다.
+3. [관리자 페이지](https://github.com/pkd98/Integrated-Parking-Lot-Management-System/blob/master/Integrated-Parking-Lot-Management-System/webPage/admin_main.html)
+    - 로그인 입력 폼에 관리자 계정으로 로그인하면 주차장의 로그를 확인할 수 있습니다.
 
-#### [Android App](https://github.com/pkd98/Integrated-Parking-Lot-Management-System/tree/master/Integrated-Parking-Lot-Management-System/Android-WebViewApplication)
-    - WebView 위젯을 이용하여 반응형 웹으로 구현된 웹사이트를 바로 보여주는 기능을 합니다.
-    
+## [Android App](https://github.com/pkd98/Integrated-Parking-Lot-Management-System/tree/master/Integrated-Parking-Lot-Management-System/Android-WebViewApplication)
+- WebView 위젯을 이용하여 반응형 웹으로 구현된 웹사이트를 바로 보여주는 기능을 합니다.
 
-
+* * *
 ## 참고 문헌
 - [Install OpenCV 4.5 on Raspberry Pi 4](https://qengineering.eu/install-opencv-4.5-on-raspberry-pi-4.html)
 - [GitHub - Mactto/License_Plate_Recognition](https://github.com/Mactto/License_Plate_Recognition)
