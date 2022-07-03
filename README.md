@@ -1,6 +1,6 @@
 # 주차장 통합 관리 시스템
 2022-1 한성대학교 전자 정보시스템 트랙 종합설계프로젝트 17조  
-시연 영상 : https://www.youtube.com/watch?v=XnQuGWWUmRE](https://www.youtube.com/watch?v=krREoNlfNF4
+시연 영상 : https://www.youtube.com/watch?v=krREoNlfNF4
 ## 개요
  * 차량의 번호판을 인식하여 차량의 입차와 출차를 자동화한다.
  * 라즈베리파이 카메라 모듈을 이용하여 주차장의 공간을 인식하여 주차 빈 자리를 효율적으로 찾는다.
